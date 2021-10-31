@@ -7,6 +7,7 @@ const loading = ()=>{
             <div className={classes.videobox}>
                 <video 
                 src={video} 
+                
                 autoPlay={true}
                 muted
                 loop></video>
