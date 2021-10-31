@@ -1,0 +1,120 @@
+@font-face {
+  font-family: montserrat;
+  src: url("./Fonts/Montserrat-Black.ttf");
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+html {
+  height: -webkit-fill-available;
+}
+body {
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+  color: white;
+  background-color: black;
+  position: relative;
+}
+#background{
+  object-fit: cover;
+  width: 150vw;
+  height: 100vh;
+  position: absolute;
+  z-index: -999;
+  bottom: 0;
+  right: 0;
+}
+#home {
+  padding-bottom: 50px;
+}
+#home .contents {
+  margin-top: 40px;
+}
+#home #register-btn {
+  width: 550px;
+  border-bottom: 110px solid rgba(0, 0, 0, 0.521);
+  border-left: 200px solid transparent;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  right: 0;
+  transform: translateY(-100%);
+}
+#home #register-btn div {
+  position: absolute;
+  font-size: 2.2em;
+  top: 30px;
+  font-weight: 900;
+  letter-spacing: 0.4em;
+  line-height: 50px;
+  font-family: montserrat;
+  transition: 0.5s all ease-in-out;
+}
+#register-btn div:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  color: #39ff14;
+  text-shadow: 0 0 5px #000;
+}
+
+#home #footer {
+  width: 100%;
+  height: fit-content;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+@media only screen and (max-width: 1115px) {
+  #home #register-btn {
+    width: 500px;
+    border-bottom-width: 100px;
+  }
+  #home #register-btn div {
+    top: 25px;
+    font-size: 1.7em;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  #home #register-btn {
+    width: 400px;
+    border-bottom-width: 80px;
+    border-left-width: 150px;
+  }
+  #home #register-btn div {
+    top: 15px;
+    font-size: 1.3em;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #background{
+    width: 250vw;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  #home #register-btn {
+    width: 350px;
+    border-bottom-width: 70px;
+    border-left-width: 120px;
+  }
+  #home #register-btn div {
+    top: 10px;
+    font-size: 1.2em;
+  }
+}
+@media only screen and (max-width: 375px) {
+  #home #register-btn {
+    width: 300px;
+    border-bottom-width: 60px;
+    border-left-width: 100px;
+  }
+  #home #register-btn div {
+    top: 5px;
+    font-size: 1em;
+  }
+}

@@ -1,0 +1,55 @@
+#link-container{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.692);
+    height: 60px;
+}
+#social-links{
+    width: 100%;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.212) 0%, rgba(0,0,0,0.8) 100%);
+    padding: 10px 30px;
+}
+
+#social-links i{
+    font-size: 30px;
+    line-height: 40px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.icon-3d {
+    -webkit-animation: icon3d 200ms 10;
+    animation: icon3d 200ms 10;
+    color: #fff;
+}
+.icon-3d:hover {
+    -webkit-animation: icon3d 200ms infinite;
+    animation: icon3d 200ms infinite;
+}
+@keyframes icon3d {
+    0% {
+        text-shadow: 5px 4px RGB(0, 255, 0), -5px -6px #39ff14;
+   }
+    25% {
+        text-shadow: -5px -6px RGB(0, 255, 0), 5px 4px #39FF14;
+   }
+    50% {
+        text-shadow: 5px -4px RGB(0, 255, 0), -8px 4px #39FF14;
+   }
+    75% {
+        text-shadow: -8px -4px RGB(0, 255, 0), -5px -4px #39FF14;
+   }
+    100% {
+        text-shadow: -5px 0 RGB(0, 255, 0), 5px -4px #39FF14;
+   }
+}
+@media only screen and (max-width: 440px) {
+    #social-links i{
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    #social-links i{
+        font-size: 20px;
+    }
+}
