@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Carousel } from "3d-react-carousal";
-import "./competition2.css";
+import "./competitionPage.css";
 
 const clicked = (id) => {
   console.log("Id " + id + " Clicked");
