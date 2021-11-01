@@ -1,3 +1,12 @@
 .App {
   margin: 0;
 }
+
+:root {
+  --theme-color: #39ff14;
+  --font-size-xl: 4rem;
+  --font-size-l: 2rem;
+  --font-size-m: 1.5rem;
+  --font-size-sm: 1rem;
+  --heading-font: "Aldrich";
+}

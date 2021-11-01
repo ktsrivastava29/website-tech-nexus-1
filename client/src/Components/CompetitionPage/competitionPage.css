@@ -1,0 +1,100 @@
+#competitions {
+  background: url("./assets/bck.jpg");
+  background-size: cover;
+  height: 100vh;
+  max-height: -webkit-max-content;
+  max-height: -moz-max-content;
+  max-height: max-content;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  overflow-x: hidden;
+  -webkit-animation: bgAnimation 1s forwards;
+  animation: bgAnimation 1s forwards;
+}
+
+@-webkit-keyframes bgAnimation {
+  0% {
+    background-position: unset;
+  }
+  100% {
+    background-position: center;
+  }
+}
+
+@keyframes bgAnimation {
+  0% {
+    background-position: unset;
+  }
+  100% {
+    background-position: center;
+  }
+}
+
+.competitionImage img {
+  width: 350px;
+  max-width: 90vw;
+  height: auto;
+  cursor: pointer;
+}
+
+.headingLabel {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  font-size: var(--font-size-xl);
+  font-family: var(--heading-font);
+  text-align: center;
+  color: var(--theme-color);
+  background-color: rgba(0, 0, 0, 0.493);
+  padding: 10px 10px;
+  margin: 40px 0px;
+}
+
+/* OVERRIDING THE CSS OF EXTERNAL LIBRARY */
+
+.slider-left div,
+.slider-right div {
+  border: none !important;
+}
+
+.react-3d-carousel .slider-container .slider-left div,
+.react-3d-carousel .slider-container .slider-right div {
+  font-size: 45px;
+}
+
+.react-3d-carousel .slider-container .slider-left div:hover,
+.react-3d-carousel .slider-container .slider-right div:hover {
+  color: var(--theme-color);
+}
+
+.react-3d-carousel .slider-container .slider-left {
+  right: 120% !important;
+}
+
+.react-3d-carousel .slider-container .slider-right {
+  left: 120% !important;
+}
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 500px) {
+  .headingLabel {
+    font-size: var(--font-size-l);
+  }
+  .react-3d-carousel .slider-container .slider-left {
+    right: 101% !important;
+  }
+  .react-3d-carousel .slider-container .slider-right {
+    left: 101% !important;
+  }
+  .react-3d-carousel .slider-container .slider-left div,
+  .react-3d-carousel .slider-container .slider-right div {
+    font-size: 25px;
+  }
+}
