@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+.container-About{
+    
+    color: aliceblue;
+    text-align: center;
+    background-image: url("./background-image/bg_about.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+   ;
+  
+
+}
+.head{
+    padding-top: 2rem;
+    
+    font-family: 'Aldrich', sans-serif;
+    letter-spacing: 25px;
+    font-style: none;
+    
+    font-size: 4rem;
+    
+    }
+
+.content-para{
+    margin-top:2rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    font-family: 'Bebas Neue';
+    font-weight: 20;
+    font-size: 1rem;
+    font-weight: normal;
+    letter-spacing: 6px;
+}
+.link-read-more a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+}
+.link-read-more a:hover{
+    color: #39FF14;
+}
+@media all and (max-width: 560px) {
+.content-para{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    
+}
+
+}
