@@ -1,9 +1,15 @@
 import React from "react";
 import "./Item.css";
 
-const Item = ({ content }) => {
+const Item = ({ content,clicked }) => {
   return (
-    <div className="content">
+    <div 
+      onClick={()=>{
+        if(content !=='Events' && content !== 'Projects' && content !=='Contacts')
+        clicked()
+      }
+    } 
+    className="content">
       <div className="line">
           <div className="slope"></div>
       </div>

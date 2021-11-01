@@ -11,7 +11,7 @@ const Sponsor = () => {
                     <div className="box">
                         <a href="https://www.geeksforgeeks.org/">
                             <div className="front">
-                                <img src={image} />
+                                <img src={image} alt = "life" />
                             </div>
                             <div className="back">
                                 <div className="name">
@@ -26,7 +26,7 @@ const Sponsor = () => {
                     <div className="box">
                         <a href="https://www.geeksforgeeks.org/">
                             <div className="front">
-                                <img src={image} />
+                                <img src={image} alt = "life" />
                             </div>
                             <div className="back">
                                 <div className="name">
@@ -41,7 +41,7 @@ const Sponsor = () => {
                     <div className="box">
                         <a href="https://www.geeksforgeeks.org/">
                             <div className="front">
-                                <img src={image} />
+                                <img src={image} alt = "life" />
                             </div>
                             <div className="back">
                                 <div className="name">
@@ -56,69 +56,7 @@ const Sponsor = () => {
                     <div className="box">
                         <a href="https://www.geeksforgeeks.org/">
                             <div className="front">
-                                <img src={image} />
-                            </div>
-                            <div className="back">
-                                <div className="name">
-                                    Geek for geeks<br/>
-                                    <span className="Type">
-                                        <i>(Educational sponsor)</i>
-                                    </span>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div className="box" id="blank"></div>
-                    <div className="box" id="blank"></div>
-                    <div className="box">
-                        <a href="https://www.geeksforgeeks.org/">
-                            <div className="front">
-                                <img src={image} />
-                            </div>
-                            <div className="back">
-                                <div className="name">
-                                    Geek for geeks<br/>
-                                    <span className="Type">
-                                        <i>(Educational sponsor)</i>
-                                    </span>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div className="box">
-                        <a href="https://www.geeksforgeeks.org/">
-                            <div className="front">
-                                <img src={image} />
-                            </div>
-                            <div className="back">
-                                <div className="name">
-                                    Geek for geeks<br/>
-                                    <span className="Type">
-                                        <i>(Educational sponsor)</i>
-                                    </span>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div className="box">
-                        <a href="https://www.geeksforgeeks.org/">
-                            <div className="front">
-                                <img src={image} />
-                            </div>
-                            <div className="back">
-                                <div className="name">
-                                    Geek for geeks<br/>
-                                    <span className="Type">
-                                        <i>(Educational sponsor)</i>
-                                    </span>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div className="box">
-                        <a href="https://www.geeksforgeeks.org/">
-                            <div className="front">
-                                <img src={image} />
+                                <img src={image} alt = "life" />
                             </div>
                             <div className="back">
                                 <div className="name">
@@ -135,7 +73,7 @@ const Sponsor = () => {
                     <div className="box">
                         <a href="https://www.geeksforgeeks.org/">
                             <div className="front">
-                                <img src={image} />
+                                <img src={image} alt = "life" />
                             </div>
                             <div className="back">
                                 <div className="name">
@@ -150,7 +88,7 @@ const Sponsor = () => {
                     <div className="box">
                         <a href="https://www.geeksforgeeks.org/">
                             <div className="front">
-                                <img src={image} />
+                                <img src={image} alt = "life" />
                             </div>
                             <div className="back">
                                 <div className="name">
@@ -165,7 +103,7 @@ const Sponsor = () => {
                     <div className="box">
                         <a href="https://www.geeksforgeeks.org/">
                             <div className="front">
-                                <img src={image} />
+                                <img src={image} alt = "life" />
                             </div>
                             <div className="back">
                                 <div className="name">
@@ -180,69 +118,7 @@ const Sponsor = () => {
                     <div className="box">
                         <a href="https://www.geeksforgeeks.org/">
                             <div className="front">
-                                <img src={image} />
-                            </div>
-                            <div className="back">
-                                <div className="name">
-                                    Geek for geeks<br/>
-                                    <span className="Type">
-                                        <i>(Educational sponsor)</i>
-                                    </span>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div className="box" id="blank"></div>
-                    <div className="box" id="blank"></div>
-                    <div className="box">
-                        <a href="https://www.geeksforgeeks.org/">
-                            <div className="front">
-                                <img src={image} />
-                            </div>
-                            <div className="back">
-                                <div className="name">
-                                    Geek for geeks<br/>
-                                    <span className="Type">
-                                        <i>(Educational sponsor)</i>
-                                    </span>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div className="box">
-                        <a href="https://www.geeksforgeeks.org/">
-                            <div className="front">
-                                <img src={image} />
-                            </div>
-                            <div className="back">
-                                <div className="name">
-                                    Geek for geeks<br/>
-                                    <span className="Type">
-                                        <i>(Educational sponsor)</i>
-                                    </span>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div className="box">
-                        <a href="https://www.geeksforgeeks.org/">
-                            <div className="front">
-                                <img src={image} />
-                            </div>
-                            <div className="back">
-                                <div className="name">
-                                    Geek for geeks<br/>
-                                    <span className="Type">
-                                        <i>(Educational sponsor)</i>
-                                    </span>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div className="box">
-                        <a href="https://www.geeksforgeeks.org/">
-                            <div className="front">
-                                <img src={image} />
+                                <img src={image} alt = "life" />
                             </div>
                             <div className="back">
                                 <div className="name">
@@ -259,7 +135,7 @@ const Sponsor = () => {
                     <div className="box">
                         <a href="https://www.geeksforgeeks.org/">
                             <div className="front">
-                                <img src={image} />
+                                <img src={image} alt = "life" />
                             </div>
                             <div className="back">
                                 <div className="name">
@@ -274,7 +150,7 @@ const Sponsor = () => {
                     <div className="box">
                         <a href="https://www.geeksforgeeks.org/">
                             <div className="front">
-                                <img src={image} />
+                                <img src={image} alt = "life" />
                             </div>
                             <div className="back">
                                 <div className="name">
@@ -289,7 +165,7 @@ const Sponsor = () => {
                     <div className="box">
                         <a href="https://www.geeksforgeeks.org/">
                             <div className="front">
-                                <img src={image} />
+                                <img src={image} alt = "life" />
                             </div>
                             <div className="back">
                                 <div className="name">
@@ -304,7 +180,131 @@ const Sponsor = () => {
                     <div className="box">
                         <a href="https://www.geeksforgeeks.org/">
                             <div className="front">
-                                <img src={image} />
+                                <img src={image} alt = "life" />
+                            </div>
+                            <div className="back">
+                                <div className="name">
+                                    Geek for geeks<br/>
+                                    <span className="Type">
+                                        <i>(Educational sponsor)</i>
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div className="box" id="blank"></div>
+                    <div className="box" id="blank"></div>
+                    <div className="box">
+                        <a href="https://www.geeksforgeeks.org/">
+                            <div className="front">
+                                <img src={image} alt = "life" />
+                            </div>
+                            <div className="back">
+                                <div className="name">
+                                    Geek for geeks<br/>
+                                    <span className="Type">
+                                        <i>(Educational sponsor)</i>
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div className="box">
+                        <a href="https://www.geeksforgeeks.org/">
+                            <div className="front">
+                                <img src={image} alt = "life" />
+                            </div>
+                            <div className="back">
+                                <div className="name">
+                                    Geek for geeks<br/>
+                                    <span className="Type">
+                                        <i>(Educational sponsor)</i>
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div className="box">
+                        <a href="https://www.geeksforgeeks.org/">
+                            <div className="front">
+                                <img src={image} alt = "life" />
+                            </div>
+                            <div className="back">
+                                <div className="name">
+                                    Geek for geeks<br/>
+                                    <span className="Type">
+                                        <i>(Educational sponsor)</i>
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div className="box">
+                        <a href="https://www.geeksforgeeks.org/">
+                            <div className="front">
+                                <img src={image} alt = "life" />
+                            </div>
+                            <div className="back">
+                                <div className="name">
+                                    Geek for geeks<br/>
+                                    <span className="Type">
+                                        <i>(Educational sponsor)</i>
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div className="box" id="blank"></div>
+                    <div className="box" id="blank"></div>
+                    <div className="box">
+                        <a href="https://www.geeksforgeeks.org/">
+                            <div className="front">
+                                <img src={image} alt = "life" />
+                            </div>
+                            <div className="back">
+                                <div className="name">
+                                    Geek for geeks<br/>
+                                    <span className="Type">
+                                        <i>(Educational sponsor)</i>
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div className="box">
+                        <a href="https://www.geeksforgeeks.org/">
+                            <div className="front">
+                                <img src={image} alt = "life" />
+                            </div>
+                            <div className="back">
+                                <div className="name">
+                                    Geek for geeks<br/>
+                                    <span className="Type">
+                                        <i>(Educational sponsor)</i>
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div className="box">
+                        <a href="https://www.geeksforgeeks.org/">
+                            <div className="front">
+                                <img src={image} alt = "life" />
+                            </div>
+                            <div className="back">
+                                <div className="name">
+                                    Geek for geeks<br/>
+                                    <span className="Type">
+                                        <i>(Educational sponsor)</i>
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div className="box">
+                        <a href="https://www.geeksforgeeks.org/">
+                            <div className="front">
+                                <img src={image} alt = "life" />
                             </div>
                             <div className="back">
                                 <div className="name">

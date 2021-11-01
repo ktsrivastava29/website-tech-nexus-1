@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Carousel } from "3d-react-carousal";
 import "./competitionPage.css";
 
