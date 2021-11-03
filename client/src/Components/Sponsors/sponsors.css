@@ -1,6 +1,13 @@
-
+:root {
+    --theme-color: #39ff14;
+    --font-size-xl: 4rem;
+    --font-size-l: 2rem;
+    --font-size-m: 1.5rem;
+    --font-size-sm: 1rem;
+    --heading-font: "Aldrich";
+  }
 .container{
-    height: 100vh;
+    height: 50vh;
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
@@ -12,7 +19,7 @@
     
 }
 body{
-    background-image: url("./images/bg.jpg") ;
+    background-image: url("./images/bgv.gif") ;
     background-repeat: no-repeat;
     background-size:cover;
 }
