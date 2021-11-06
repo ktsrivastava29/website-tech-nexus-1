@@ -6,11 +6,13 @@ import CompetitionPage from './Components/CompetitionPage/CompetitionPage';
 // import LoadingPage from './Components/Loadingpage/Loading';
 import Sponsor from './Components/Sponsors/Sponsors';
 import Button from '@material-ui/core/Button';
+    
 function App() {
-
+  
   const [torender , settorender] = useState('Home Page');
   
   return (
+    
     <div className="App">
        {torender==='Home Page'?<Homepage 
        clickedhome ={()=>settorender('Home Page')}

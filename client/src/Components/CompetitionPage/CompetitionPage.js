@@ -1,7 +1,8 @@
 import React from "react";
 import { Carousel } from "3d-react-carousal";
 import "./competitionPage.css";
-
+import { bounceIn } from 'react-animations';
+import Radium, {StyleRoot} from 'radium';
 const clicked = (id) => {
   console.log("Id " + id + " Clicked");
 };
@@ -28,7 +29,6 @@ let slides = [
     alt="5"
   />,
 ];
-
 const images = slides.map((slide) => {
   console.log(slide.props.src);
   return (
@@ -45,11 +45,19 @@ const images = slides.map((slide) => {
 });
 
 const CompetitionPage = () => {
+  const styles = {
+    bounceIn: {
+      animation: 'x 1s',
+      animationName: Radium.keyframes(bounceIn, 'bounceIn')
+    }
+  }
   return (
-    <div id="competitions">
+    <StyleRoot>
+    <div id="competitions" style={styles.bounceIn}>
       <div className="headingLabel">COMPETITIONS</div>
       <Carousel slides={images} autoplay={false} />
     </div>
+    </StyleRoot>
   );
 };
 
