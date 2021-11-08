@@ -9,7 +9,7 @@ import devfolio from "./assets/devfolio.png";
 const CompetitionDetail = () => {
   return (
     <div id="aboutCompetition">
-      <div className="aboutCompetitionHeading">HACKATHON</div>
+      <div className="aboutCompetitionHeading">VIVIDHATA: A Blend of Ideas</div>
       <div className="aboutCompetitionDetails">
         <div className="details">
           <p>
