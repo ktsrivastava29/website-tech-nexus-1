@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './Loading.module.css';
-import video from '../../Assets/blendervideo.mp4'
+import video from './Assets/blendervideo.mp4';
 const loading = ()=>{
     return (
         <React.Fragment>

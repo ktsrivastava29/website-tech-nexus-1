@@ -1,10 +1,13 @@
 const express = require('express')
-const app = express()
+const app = express();
 
-app.get('/', function (req, res) {
-    res.send('Hello World')
+const path = require('path');
+
+app.use(express.static(path.join(__dirname,'./client/build/')));
+app.get('*', function (req, res) {
+    res.sendFile(path.join(__dirname,'./client/build/index.html'));
 })
 
-app.listen(5000, (req, res) => {
-    console.log('listening on 5000');
+app.listen(9000, (req, res) => {
+    console.log('listening on 9000');
 })
