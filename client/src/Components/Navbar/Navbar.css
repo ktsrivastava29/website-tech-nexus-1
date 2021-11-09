@@ -2,22 +2,21 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
 }
-/* body {
-  background-color: black;
-} */
 nav {
   width: 100%;
-  padding: 15px 25px;
+  padding: 20px 5px;
   position: fixed;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0);
-  font-size: 1.1em;
+  font-size: 1.5em;
   color: white;
   display: flex;
   cursor: pointer;
   flex-wrap: wrap;
+  z-index: 9;
+  background-color: black;
 }
 #logo {
   display: flex;
@@ -92,12 +91,17 @@ nav {
 #collapseBtn {
   position: absolute;
   top: 21px;
-  right: 30px;
+  right: 20px;
   font-size: 1.5em;
   display: none;
 }
 .fullHeight{
   height: auto !important;
+}
+@media only screen and (max-width: 1150px) {
+  #navList div{
+    margin: 0 1em;
+  }
 }
 @media only screen and (max-width: 992px) {
   #navList {
@@ -130,38 +134,67 @@ nav {
   }
   #collapseBtn {
     display: block;
+    top: 27px;
   }
 }
 @media only screen and (max-width: 768px) {
   #logo {
-    font-size: 1.4em;
+    font-size: 1.8em;
   }
   #collapseBtn{
-    font-size: 1.1em;
+    font-size: 1.5em;
+    top: 29px;
   }
   #navList div{
-    font-size: 1.1em;
+    font-size: 1.3em;
   }
 }
-@media only screen and (max-width: 460px) {
+@media only screen and (max-width: 620px) {
+  #logo {
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 550px) {
+  #logo {
+    font-size: 1.65em;
+  }
+  #collapseBtn{
+    font-size: 1.3em;
+    top: 27px;
+  }
+  #navList div{
+    font-size: 1.2em;
+  }
+}
+@media only screen and (max-width: 500px) {
+  #logo {
+    font-size: 1.3em;
+    margin-left: -0.5em;
+  }
+  #collapseBtn{
+    font-size: 1.2em;
+    top: 25px;
+  }
+  #navList div{
+    font-size: 1em;
+  }
+}
+@media only screen and (max-width: 450px) {
   #logo {
     font-size: 1.2em;
   }
   #collapseBtn{
-    font-size: 1em;
-  }
-  #navList div{
-    font-size: 1em;
+    font-size: 1.1em;
   }
 }
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 380px) {
   #logo {
-    font-size: 1.05em;
+    font-size: 1em;
   }
   #collapseBtn{
-    font-size: 0.9em;
+    font-size: 0.8em;
   }
   #navList div{
-    font-size: 0.9em;
+    font-size: 0.8em;
   }
 }
