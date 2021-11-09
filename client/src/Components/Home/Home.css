@@ -1,120 +1,80 @@
-@font-face {
-  font-family: montserrat;
-  src: url("./Fonts/Montserrat-Black.ttf");
-}
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  user-select: none;
 }
 html {
   height: -webkit-fill-available;
 }
 body {
+  background-color: black;
+  color: white;
+  width: 100%;
   min-height: 100vh;
   min-height: -webkit-fill-available;
-  color: white;
-  background-color: black;
   position: relative;
 }
-#background{
-  object-fit: cover;
-  width: 150vw;
-  height: 100vh;
+#home{
   position: absolute;
-  z-index: -999;
-  bottom: 0;
-  right: 0;
-}
-#home {
-  padding-bottom: 50px;
-}
-#home .contents {
-  margin-top: 40px;
-}
-#home #register-btn {
-  width: 550px;
-  border-bottom: 110px solid rgba(0, 0, 0, 0.822);
-  border-left: 200px solid transparent;
-  display: flex;
-  justify-content: center;
-  position: absolute;
-  right: 0;
-  transform: translateY(-100%);
-}
-#home #register-btn div {
-  position: absolute;
-  font-size: 2.2em;
-  top: 30px;
-  font-weight: 900;
-  letter-spacing: 0.4em;
-  line-height: 50px;
-  font-family: montserrat;
-  transition: 0.5s all ease-in-out;
-}
-#register-btn div:hover {
-  cursor: pointer;
-  transform: scale(1.1);
-  color: #39ff14;
-  text-shadow: 0 0 5px #000;
-}
-
-#home #footer {
+  height: 100%;
   width: 100%;
-  height: fit-content;
-  position: absolute;
-  bottom: 0;
-  left: 0;
 }
-
-@media only screen and (max-width: 1115px) {
-  #home #register-btn {
-    width: 500px;
-    border-bottom-width: 100px;
-  }
-  #home #register-btn div {
-    top: 25px;
-    font-size: 1.7em;
+#tagline{
+  display: flex;
+  justify-content: center ;
+  align-items: flex-start;
+  margin-left: 10%;
+  height: 100%;
+  max-width: 600px;
+  flex-direction: column;
+  padding-top: 66px;
+}
+#tagline h1{
+  font-size: 3em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  line-height: 1.6em;
+}
+#tagline h1 span{
+  color : #39FF14;
+}
+button{
+  font-size: 18px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  background-color: #fdfffd;
+  border-radius: 30px;
+  box-shadow: 0px 0px 15px #39FF14;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: all 0.6s;
+}
+button:hover{
+  background-color: #39FF14;
+  border-color: white;
+  box-shadow: 0px 0px 20px #fff;
+}
+@media only screen and (max-width: 768px) {
+  #tagline h1{
+    font-size: 2.5em;
+    line-height:1.75em;
   }
 }
-
-@media only screen and (max-width: 770px) {
-  #home #register-btn {
-    width: 400px;
-    border-bottom-width: 80px;
-    border-left-width: 150px;
+@media only screen and (max-width: 540px) {
+  #tagline{
+    margin-left: 5%;
   }
-  #home #register-btn div {
-    top: 15px;
-    font-size: 1.3em;
+  #tagline h1{
+    font-size: 2.2em;
   }
 }
-@media only screen and (max-width: 600px) {
-  #background{
-    width: 250vw;
+@media only screen and (max-width: 400px) {
+  #tagline{
+    margin-left: 5%;
   }
-}
-
-@media only screen and (max-width: 440px) {
-  #home #register-btn {
-    width: 350px;
-    border-bottom-width: 70px;
-    border-left-width: 120px;
-  }
-  #home #register-btn div {
-    top: 10px;
-    font-size: 1.2em;
-  }
-}
-@media only screen and (max-width: 375px) {
-  #home #register-btn {
-    width: 300px;
-    border-bottom-width: 60px;
-    border-left-width: 100px;
-  }
-  #home #register-btn div {
-    top: 5px;
-    font-size: 1em;
+  #tagline h1{
+    font-size: 1.8em;
   }
 }
