@@ -63,20 +63,18 @@
   font-size: var(--font-size-m);
 }
 
-.aboutCompetitionDetails .details button {
+.aboutCompetitionDetails .details .button {
   padding: 5px 5px;
   text-decoration: none;
   font-size: var(--font-size-l);
   cursor: pointer;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   background-color: black;
-  color: white;
-  border: white 1px solid;
   border-radius: 6px;
-}
-
-.aboutCompetitionDetails .details button:hover {
-  border: var(--theme-color) 1px solid;
+  margin: 2px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .aboutCompetitionDetails .image {
@@ -87,6 +85,48 @@
   width: 370px;
   max-width: 90vw;
   height: auto;
+}
+
+.sponsors {
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  padding: 25px 10px;
+  background: rgb(15, 15, 15);
+}
+
+.sponsors img {
+  height: 70px;
+  width: auto;
+  padding: 10px 25px;
+}
+
+.sponsors .gold a img {
+  height: 130px;
+  max-height: auto;
+  width: auto;
+  padding: 28px 15px;
+}
+
+.sponsors .silver {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+}
+
+.sponsors h4 {
+  color: rgba(255, 217, 0, 1);
+  padding: 10px 10px;
+}
+
+.sponsors h5 {
+  color: rgba(192, 192, 192, 1);
+  padding: 10px 10px;
 }
 
 @media only screen and (max-width: 769px) {
@@ -121,20 +161,13 @@
   .aboutCompetitionDetails .details button {
     font-size: var(--font-size-m);
   }
-}
+  .sponsors img {
+    height: 40px;
+    padding: 10px 15px;
+  }
 
-.sponsors {
-  display: flex;
-  flex-wrap: wrap;
-  height: 150px;
-  width: 100vw;
-  align-items: center;
-  justify-content: center;
-  padding: 10px 10px;
-}
-
-.sponsors img {
-  height: 70px;
-  width: auto;
-  padding: 10px 25px;
+  .sponsors .gold a img {
+    height: 90px;
+    padding: 18px 15px;
+  }
 }
