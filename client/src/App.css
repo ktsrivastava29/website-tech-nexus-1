@@ -16,3 +16,8 @@ body {
   --font-size-sm: 1rem;
   --heading-font: "Aldrich";
 }
+@media (max-width: 1024px) {
+  .startingvideobox {
+    display: none;
+  }
+}

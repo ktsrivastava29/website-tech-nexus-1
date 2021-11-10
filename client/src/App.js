@@ -14,7 +14,7 @@ function App() {
   return (
     
     <div className="App">
-        {torender === 'start video'?<video src = {svideo} alt='some description' onEnded={()=>{settorender('Home Page')}} autoPlay muted style={{zIndex:'1000',position:'absolute', width: '100vw'}}/>:null}
+        {torender === 'start video'?<video className='startingvideobox' src = {svideo} alt='some description' onEnded={()=>{settorender('Home Page')}} autoPlay muted style={{zIndex:'1000',position:'absolute', width: '100vw'}}/>:null}
        {(torender==='Home Page')?<Homepage 
        clickedhome ={()=>settorender('Home Page')}
        clickedaboutus = {()=>{settorender('About us')}}
