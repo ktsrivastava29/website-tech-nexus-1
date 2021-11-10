@@ -12,6 +12,10 @@
   overflow-x: hidden;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 .aboutCompetitionHeading {
   height: -webkit-max-content;
   height: -moz-max-content;
