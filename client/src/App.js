@@ -6,14 +6,16 @@ import CompetitionPage from './Components/CompetitionPage/CompetitionPage';
 // import LoadingPage from './Components/Loadingpage/Loading';
 import Sponsor from './Components/Sponsors/Sponsors';
 import Button from '@material-ui/core/Button';
+import svideo from './Components/Home/Assets/startvideo.mp4'
 function App() {
   
-  const [torender , settorender] = useState('Home Page');
+  const [torender , settorender] = useState('start video');
   
   return (
     
     <div className="App">
-       {torender==='Home Page'?<Homepage 
+        {torender === 'start video'?<video src = {svideo} alt='some description' onEnded={()=>{settorender('Home Page')}} autoPlay muted style={{zIndex:'1000',position:'absolute', width: '100vw'}}/>:null}
+       {(torender==='Home Page')?<Homepage 
        clickedhome ={()=>settorender('Home Page')}
        clickedaboutus = {()=>{settorender('About us')}}
        clickedcompetitionspage = {()=>{settorender('Competition Page')}}
