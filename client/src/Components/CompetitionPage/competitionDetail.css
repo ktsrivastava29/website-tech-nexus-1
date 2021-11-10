@@ -29,6 +29,10 @@
   margin: 40px 0px;
 }
 
+.aboutCompetitionHeading p {
+  font-size: var(--font-size-m);
+}
+
 .aboutCompetitionDetails {
   height: -webkit-max-content;
   height: -moz-max-content;
