@@ -39,7 +39,8 @@
 .competitionImage img {
   width: 350px;
   max-width: 90vw;
-  height: auto;
+  height: 438px;
+
   cursor: pointer;
 }
 
