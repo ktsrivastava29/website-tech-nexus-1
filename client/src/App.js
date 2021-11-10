@@ -27,6 +27,7 @@ function App() {
        {torender!=='Home Page'?<div style={{position : 'fixed' , right: '0' , bottom :'0' , margin: '5px'}}>
         <Button onClick={()=>{settorender('Home Page')}} style={{color: 'white', background : 'rgba(0,0,0,0.5)'}} variant="contained" color="neutral">Home</Button>;
        </div>:null}
+       <div style={{position : 'fixed' , right: '40%' , bottom :'0' , margin: '5px' , fontFamily:'monospace'}}>Under development</div>
     </div>
   );
 }
