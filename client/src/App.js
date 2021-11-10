@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React,{useState,useEffect} from 'react';
 import './App.css';
 import Homepage from './Components/Home/Home';
 import Aboutus from './Components/Abouts-us/Aboutus';
@@ -10,7 +10,17 @@ import svideo from './Components/Home/Assets/startvideo.mp4'
 function App() {
   
   const [torender , settorender] = useState('start video');
-  
+  const [isMobile, setIsMobile] = useState(false)
+ 
+//choose the screen size 
+
+// create an event listener
+useEffect(() => {
+  if(window.innerWidth < 1024){
+    settorender('Home Page')
+  }
+},[])
+
   return (
     
     <div className="App">
