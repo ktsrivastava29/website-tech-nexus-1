@@ -15,7 +15,10 @@ const Sponsor = () => {
         <StyleRoot>
         <>
             <div className="bd" style={styles.fadeIn}>
-                <img style={{marginTop:'-1%',position:'absolute',top:'0',left:'0',width:'100vw',zIndex:'-1'}} src={im2} alt = "some description"/>
+            <div class='image-container-sponsor'>
+                <img 
+                    src={im2}/>
+            </div>
                 <h1>SPONSORS</h1>
                 <div className="container">
                     <div className="box">

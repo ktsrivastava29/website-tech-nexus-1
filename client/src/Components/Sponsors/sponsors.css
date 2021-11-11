@@ -13,10 +13,27 @@
   background-repeat: no-repeat;
   background-size: cover;
 } */
-.bd{
-  margin: 0;
-  padding: 0;
+.image-container-sponsor{
+  position: absolute;
+  top: -2%;
+  bottom: 0;
+  width: 100%;
+  height: 100%; 
+  overflow: hidden;
+  z-index: -1;
 }
+.image-container-sponsor img{
+  min-width: 100%; 
+  min-height: 105%; 
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+
 #blank {
   background: transparent;
 }
@@ -27,6 +44,7 @@ h1 {
   font-family: var(--heading-font);
   text-align: center;
   color: white;
+ 
 }
 img {
   max-height: 100%;
