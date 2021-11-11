@@ -1,19 +1,21 @@
 import React from "react";
 import "./sponsors.css";
 import image from "./images/GFG.png";
-import {zoomIn} from 'react-animations';
+import {fadeIn} from 'react-animations';
 import Radium, {StyleRoot} from 'radium'; 
+import im2 from './images/bgv.gif'
 const Sponsor = () => {
     const styles = {
-        zoomIn: {
+        fadeIn: {
           animation: 'x 1s',
-          animationName: Radium.keyframes(zoomIn, 'zoomIn')
+          animationName: Radium.keyframes(fadeIn, 'fadeIn')
         }
       }
     return (
         <StyleRoot>
         <>
-            <div className="bd" style={styles.zoomIn}>
+            <div className="bd" style={styles.fadeIn}>
+                <img style={{marginTop:'-1%',position:'absolute',top:'0',left:'0',width:'100vw',zIndex:'-1'}} src={im2} alt = "some description"/>
                 <h1>SPONSORS</h1>
                 <div className="container">
                     <div className="box">
