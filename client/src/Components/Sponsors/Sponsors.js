@@ -17,7 +17,7 @@ const Sponsor = () => {
             <div className="bd" style={styles.fadeIn}>
             <div class='image-container-sponsor'>
                 <img 
-                    src={im2}/>
+                    src={im2} alt = "some description"/>
             </div>
                 <h1>SPONSORS</h1>
                 <div className="container">
