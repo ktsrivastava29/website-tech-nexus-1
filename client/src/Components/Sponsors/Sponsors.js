@@ -141,8 +141,8 @@ const Sponsor = () => {
                             </div>
                         </a>
                     </div>
-                    <div className={style.box} id="blank"></div>
-                    <div className={style.box} id="blank"></div>
+                    <div className={style.box} id={style["blank"]}></div>
+                    <div className={style.box} id={style["blank"]}></div>
                     <div className={style.box}>
                         <a href="https://tezos.com/">
                             <div className={style.front}>
@@ -203,8 +203,8 @@ const Sponsor = () => {
                             </div>
                         </a>
                     </div>
-                    <div className={style.box} id="blank"></div>
-                    <div className={style.box} id="blank"></div>
+                    <div className={style.box} id={style["blank"]}></div>
+                    <div className={style.box} id={style["blank"]}></div>
                     <div className={style.box}>
                         <a href="#">
                             <div className={style.front}>
@@ -265,8 +265,8 @@ const Sponsor = () => {
                             </div>
                         </a>
                     </div>
-                    <div className={style.box} id="blank"></div>
-                    <div className={style.box} id="blank"></div>
+                    <div className={style.box} id={style["blank"]}></div>
+                    <div className={style.box} id={style["blank"]}></div>
                     <div className={style.box}>
                         <a href="#">
                             <div className={style.front}>
@@ -327,8 +327,8 @@ const Sponsor = () => {
                             </div>
                         </a>
                     </div>
-                    <div className={style.box} id="blank"></div>
-                    <div className={style.box} id="blank"></div>
+                    <div className={style.box} id={style["blank"]}></div>
+                    <div className={style.box} id={style["blank"]}></div>
                     <div className={style.box}>
                         <a href="#">
                             <div className={style.front}>
